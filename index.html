@@ -14,12 +14,12 @@
     </style>    
 </head>
 <body>
-    <section class="h-screen z-1 relative h-full overflow-hidden bg-gradient-to-b from-blue-200 via-blue-100 to-white">
-        <div class="absolute inset-0 h-full bg-black/40 z-1"></div>
-        <img src="./assets/pexels-ganinph-8379329.jpg" alt="" class=" z-1 h-full w-full object-cover object-center">
+    <section class="h-screen z-1 relative overflow-hidden">
+        <!-- <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white"></div> -->
+        <img src="./assets/pexels-ganinph-8379329.jpg" alt="" class="z-1 h-full w-full object-cover object-center">
 
         <div class="absolute flex flex-col justify-between inset-0 z-2 py-8 px-12 max-w-[1500px] mx-auto py-12">
-            <header class="mx-auto w-full max-w-8xl flex items-center justify-between text-white">
+            <header class="mx-auto w-full max-w-8xl flex items-center justify-between text-black">
                 <div class="flex items-center gap-2">
                     <div class="w-[70px] overflow-hidden">
                         <img src="./assets/logo.png" alt="" class="h-full w-full object-contain">
@@ -33,34 +33,39 @@
                     <a href="">Contato</a>
                 </div>
                 <div class="">
-                    <a href="" class="px-4 py-2 rounded-full bg-transparent border border-white px-8 py-4 rounded-full">Contato</a>
+                    <a href="" class="px-4 py-2 rounded-full bg-transparent border border-black px-8 py-4 rounded-full">Contato</a>
                 </div>
             </header>
 
-            <main class="flex flex-col  gap-12">
-                <h1 class="text-white text-9xl flex text-right leading-[0.8] 2xl:mb-12">A sua saúde mental realmente importa</h1>
+            <main class="flex flex-col gap-12">
+                <div class="flex justify-end">
+                    <h1 class="text-black text-8xl max-w-2xl 2xl:text-9xl md:max-w-3xl 2xl:max-w-6xl flex text-right leading-[0.8] ">A sua saúde mental realmente importa</h1>
+                </div>
 
-                <div class="flex justify-between">
-                    <span class="w-[150px] h-[3px] bg-white"></span>
-
+                <div class="flex justify-end gap-12">
+                    <span class="w-[150px] h-[3px] bg-black"></span>
                     <div class="flex flex-col gap-12 max-w-md">
-                        <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
-                        <div class="flex items-center gap-6 ">
-                            <a href="" class="bg-white px-8 py-4 cursor-pointer rounded-full text-black">Contato</a>
-                            <a href="" class="bg-white/10 px-8 py-4 cursor-pointer rounded-full text-white border border-white">Nossos serviços</a>
+                        <p class="text-black flex text-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <div class="flex items-center gap-6 justify-end">
+                            <a href="" class="bg-black px-8 py-4 cursor-pointer rounded-full text-white">Contato</a>
+                            <a href="" class="bg-white/10 px-8 py-4 cursor-pointer rounded-full text-black border border-black">Nossos serviços</a>
                         </div>
                     </div>
+                </div>
 
-                    <div class="bg-white/20 text-white h-full rounded-2xl flex gap-4 p-8">
+                <!-- <div class="flex justify-end gap-12">
+                    
+
+                    <div class="bg-black/20 text-white h-full rounded-2xl flex gap-4 p-8">
                         <div class="w-[10rem] overflow-hidden rounded-2xl">
                             <img src="./assets/cover.jpg" alt="" class="w-full h-full object-center object-cover">
                         </div>
                         <div class="flex flex-col justify-between">
-                            <p class="max-w-xs">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                            <p class="max-w-xs">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                             <p>Fulano de tal</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </main>
         </div>
