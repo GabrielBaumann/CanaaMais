@@ -20,13 +20,13 @@
 <body>
     <section class="h-screen z-1 relative overflow-hidden">
         <div class="absolute inset-0 bg-black/20"></div>
-        <img src="./assets/pexels-olly-774866.jpg" alt="" class="z-1 h-full w-full object-cover object-[30%_center] md:object-[center_70%]">
+        <img src="<?= theme("img/cover.jpg"); ?>" alt="cover" class="z-1 h-full w-full object-cover object-[30%_center] md:object-[center_70%]">
 
         <div class="absolute flex flex-col max-w-[1800px] justify-between inset-0 z-2 px-4 md:px-12 mx-auto py-8">
             <header class="hidden md:flex mx-auto w-full max-w-8xl flex items-center justify-between text-white">
                 <div class="flex items-center gap-2">
                     <div class="w-[70px] overflow-hidden">
-                        <img src="./assets/logo.png" alt="" class="h-full w-full object-contain">
+                        <img src="<?= theme("img/logo.png") ;?>" alt="" class="h-full w-full object-contain">
                     </div>
                     <span class="">Clínica Canaã Mais</span>
                 </div>
@@ -36,7 +36,10 @@
                     <a href="">Profissionais</a>
                     <a href="">Contato</a>
                 </div>
-                <div class="">
+                <div class="flex items-center gap-4">
+                    <a href="<?= url("/inicio"); ?>" class="flex items-center gap-2 px-4 py-2 underline underline-offset-8 uppercase">
+                        <span>Entrar</span>
+                    </a>
                     <a href="" class="flex items-center gap-2 px-4 py-2 rounded-full bg-transparent border border-white px-8 py-4 rounded-full">
                         <span>Contato</span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -118,11 +121,9 @@
     <section class="h-screen">
         <div class="relative h-screen overflow-hidden">
             <div class="absolute inset-0 h-full bg-gradient-to-b from-transparent via-transparent to-white z-1"></div>
-            <img src="./assets/clinica.png" alt="" class="h-full w-full object-cover">
+            <img src="<?= theme("img/cover.jpg"); ?>" alt="" class="h-full w-full object-cover">
         </div>
     </section>
-    <section class="h-screen">
-        
-    </section>
+    
 </body>
 </html>

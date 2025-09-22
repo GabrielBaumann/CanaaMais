@@ -14,7 +14,7 @@ define("CONF_DB_NAME", "clinica_db");
  * PROJECT URLs
  */
 // define("CONF_URL_BASE", "https://teste.syscerberus.com");
-define("CONF_URL_TEST", "http://localhost/gestaobeneficios");
+define("CONF_URL_TEST", "http://localhost/canaamais");
 
 /**
  * DATES
@@ -37,8 +37,8 @@ define("CONF_MESSAGE_LOAD", "");
 */
 define("CONF_VIEW_PATH", __DIR__ . "/../../themes");
 define("CONF_VIEW_EXT", "php");
-define("CONF_VIEW_THEME", "managmentweb");
-define("CONF_VIEW_APP", "managment");
+define("CONF_VIEW_THEME", "clinicweb");
+define("CONF_VIEW_APP", "clinic");
 
 /**
  * MAIL
