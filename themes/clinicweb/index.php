@@ -37,7 +37,7 @@
                     <a href="">Contato</a>
                 </div>
                 <div class="flex items-center gap-4">
-                    <a href="<?= url("/inicio"); ?>" class="flex items-center gap-2 px-4 py-2 underline underline-offset-8 uppercase">
+                    <a href="<?= url("/entrar"); ?>" class="flex items-center gap-2 px-4 py-2 underline underline-offset-8 uppercase">
                         <span>Entrar</span>
                     </a>
                     <a href="" class="flex items-center gap-2 px-4 py-2 rounded-full bg-transparent border border-white px-8 py-4 rounded-full">

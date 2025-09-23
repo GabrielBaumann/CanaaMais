@@ -19,6 +19,9 @@ $route->namespace("Source\App");
 $route->get("/", "Web:login");
 
 // Início
+$route->get("/entrar", "Login:login");
+
+// Início
 $route->get("/inicio", "Start:startPage");
 
 // Benficiários
